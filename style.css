@@ -263,15 +263,9 @@
   .best .flex img{
     width: 300px;
   }
-  .best .flex a::before:hover{
-    background: #bbbbbb;
-    bottom: 0;
-    content: "";
-    left: 0;
-    opacity: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
+
+  .best .flex a img:hover{
+    opacity: 0.6;
     transition: all .3s;
   }
   
